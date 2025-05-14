@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List Web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <aside class="gif_container">
+      <img id="fun_gif" src="catBe.gif" alt="catBe" width="200" height="200" />
+
+      <audio id="sound_ef">
+        <source src="sound.mp3" />
+      </audio>
+    </aside>
+
+    <div class="container">
+      <h1>Just Do It!</h1>
+      <form id="todo-form">
+        <input
+          type="text"
+          id="todo-input"
+          placeholder="Im gonna do..."
+          required
+        />
+        <button type="submit">I Got This!</button>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
